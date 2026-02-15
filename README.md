@@ -29,6 +29,10 @@ cd Downloads
 bash main.bash
 ```
 
+## Future Usage
+1. Double check [preparation](#preparation).
+2. When opening Git Bash, press up and down arrows to run previous commands making rooting even faster.
+
 > [!NOTE]
 > Your bootloader must already be unlocked before using this program
 > 
