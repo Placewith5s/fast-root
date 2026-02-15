@@ -17,11 +17,11 @@ Assuming you've already done [preparation](#preparation).
 
 1. Download Git: [Git install page for Windows](https://git-scm.com/install/windows) and make sure Git Bash is included.
 
-2. Download the release file [Releases](https://github.com/Placewith5s/fast-root/releases).
+2. Download the release files (.bash files): [Releases](https://github.com/Placewith5s/fast-root/releases).
 
-3. Go to "Downloads" (using Git Bash):
+3. Run Git Bash as user and go to "Downloads":
 ```sh
-cd "$HOME/Downloads"
+cd Downloads
 ```
 
 4. Run the program on Git Bash:
