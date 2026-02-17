@@ -1,6 +1,6 @@
 ask() {
     echo ""
-    echo "Paste patched image name: (don't include extension name) "
+    echo "Paste patched image name: "
     read -r boot_img
 }
 
