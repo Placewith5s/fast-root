@@ -10,6 +10,5 @@ run_commands() {
     echo "Press ENTER to continue: "
     read -r enter_listen || exit 1
 
-    cd Downloads || exit 1
     fastboot flash boot "${boot_img%.img}.img"
 }
