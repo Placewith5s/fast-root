@@ -1,13 +1,14 @@
 ask() {
-    echo ""
-    echo "Paste patched image name: "
+    printf "\n"
+    printf "Paste patched image name: "
     read -r boot_img
 }
+
 
 run_commands() {
     adb reboot bootloader || exit 1
 
-    echo "Press ENTER to continue: "
+    printf "Press ENTER to continue: "
     read -r enter_listen || exit 1
 
     fastboot flash boot "${boot_img%.img}.img"
