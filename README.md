@@ -26,7 +26,7 @@ cd Downloads
 
 4. Run the program on Git Bash:
 ```sh
-bash main.bash
+sh main.sh
 ```
 
 ## Future Usage
