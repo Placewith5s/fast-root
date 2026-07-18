@@ -36,6 +36,4 @@ sh main.sh
 > [!NOTE]
 > Your bootloader must already be unlocked before using this program
 > 
-> Windows only program
-> 
 > The patched boot image's location should be PC's "Downloads" folder
