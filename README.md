@@ -10,7 +10,7 @@ This program doesn't require admin privileges and works on Windows only.
 
 3. If you haven't already, install the Android platform tools and make sure "fastboot" command is working as expected by running `fastboot devices`.
 
-4. Copy and paste the patched boot image to "Downloads" folder on your PC.
+4. Copy and paste the boot image to the "Downloads" folder on your PC.
 
 ## Usage
 Assuming you've already done [preparation](#preparation).
@@ -31,9 +31,9 @@ sh main.sh
 
 ## Future Usage
 1. Double check [preparation](#preparation).
-2. When opening Git Bash, press up and down arrows to reuse previous commands making rooting even faster.
+2. When opening Git Bash, press up and down arrows or ctrl + r to reuse previous commands making rooting even faster.
 
 > [!NOTE]
 > Your bootloader must already be unlocked before using this program
 > 
-> The patched boot image's location should be PC's "Downloads" folder
+> The boot image's location should be PC's "Downloads" folder

@@ -1,13 +1,13 @@
 ask() {
     printf "\n"
-    printf "Paste patched boot image name: "
+    printf "Paste boot image name: "
     read -r boot_img
 }
 
 
 run_commands() {
-    printf "Booting to fastboot mode..."
-    adb reboot bootloader
+    printf "Booting to fastboot mode...\n"
+    adb reboot bootloader || printf "Could not go to fastboot mode!\n"
 
     printf "Press ENTER to continue: "
     read -r enter_listen || exit 1
@@ -17,7 +17,7 @@ run_commands() {
         exit 1
     fi
 
-    printf "Flashing patched boot image..."
+    printf "Flashing boot image...\n"
     fastboot flash boot "${boot_img%.img}.img" || exit 1
-    printf "Flashed patched boot image successfully!"
+    printf "Flashed boot image successfully!"
 }
