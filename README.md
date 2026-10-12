@@ -2,7 +2,7 @@
 Root your Android phone (with an unlocked bootloader) faster than doing it manually.
 
 ## Preparation
-This program doesn't require admin privileges and works on Windows only.
+This program doesn't require admin privileges.
 
 1. Connect the phone you want to root to your PC with the right cable.
 
