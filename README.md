@@ -17,6 +17,7 @@ Assuming you've already done [preparation](#preparation).
 
 1. Download Git:
 **Windows**: [Git install page for Windows](https://git-scm.com/install/windows) and make sure Git Bash is included
+
 **Fedora**: sudo dnf install git -y
 
 2. Download the release files (.bash files): [Releases](https://github.com/Placewith5s/fast-root/releases)
