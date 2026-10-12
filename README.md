@@ -15,11 +15,13 @@ This program doesn't require admin privileges and works on Windows only.
 ## Usage
 Assuming you've already done [preparation](#preparation).
 
-1. Download Git: [Git install page for Windows](https://git-scm.com/install/windows) and make sure Git Bash is included.
+1. Download Git:
+**Windows**: [Git install page for Windows](https://git-scm.com/install/windows) and make sure Git Bash is included
+**Fedora**: sudo dnf install git -y
 
-2. Download the release files (.bash files): [Releases](https://github.com/Placewith5s/fast-root/releases).
+2. Download the release files (.bash files): [Releases](https://github.com/Placewith5s/fast-root/releases)
 
-3. Run Git Bash as user and go to "Downloads":
+3. Run Git Bash as user and go to the download folder:
 ```sh
 cd Downloads
 ```
@@ -30,10 +32,9 @@ sh main.sh
 ```
 
 ## Future Usage
-1. Double check [preparation](#preparation).
-2. When opening Git Bash, press up and down arrows or ctrl + r to reuse previous commands making rooting even faster.
+1. Update phone monthly so that you only need to root monthly
+2. Double check [preparation](#preparation)
+3. When opening Git Bash, press up and down arrows or ctrl + r to reuse previous commands making rooting even faster
 
 > [!NOTE]
 > Your bootloader must already be unlocked before using this program
-> 
-> The boot image's location should be PC's "Downloads" folder
